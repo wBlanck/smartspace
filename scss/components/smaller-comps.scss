@@ -1,0 +1,28 @@
+@use "../util" as *;
+
+.hamburger {
+  display: none;
+
+  @include breakpoint-down("700") {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  .bar {
+    width: rem(25);
+    height: rem(3);
+    background-color: black;
+  }
+  .bar + .bar {
+    margin-top: 5px;
+  }
+}
+/* 
+.mobile-menu {
+  position: relative;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+ */
