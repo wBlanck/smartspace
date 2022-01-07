@@ -1,0 +1,12 @@
+{
+  "name": "space",
+  "version": "1.0.0",
+  "description": "Testing",
+  "scripts:": {
+    "start": "sass --watch scss/style.scss style.css",
+    "testaa": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "sass": "^1.46.0"
+  }
+}
