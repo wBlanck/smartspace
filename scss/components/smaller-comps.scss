@@ -17,6 +17,20 @@
     margin-top: 5px;
   }
 }
+
+.socials {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  right: 2%;
+  transform: translateY(-50%);
+  font-size: rem(25);
+  &__item + &__item {
+    margin-top: rem(20);
+  }
+}
+
 /* 
 .mobile-menu {
   position: relative;
